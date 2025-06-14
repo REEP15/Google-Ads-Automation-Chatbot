@@ -1,7 +1,8 @@
-Google Ads Automation Chatbot
+
+# Google Ads Automation Chatbot
 This project is an AI-powered chatbot designed to automate the creation of Google Ads campaigns. With minimal input from the user, the chatbot understands the business niche, generates ad headlines and descriptions using OpenAI, and integrates with the Google Ads API to create and manage campaigns.
 
-Tech Stack
+# Tech Stack
 Streamlit – For building the web-based user interface
 
 LangChain – For handling AI-driven conversations and dynamic form filling
@@ -14,11 +15,13 @@ python-dotenv – For loading environment variables securely
 
 os – For system-level environment handling
 
-Setup Instructions
+## Setup Instructions
 1. Clone the Repository
 
-git clone https://github.com/yourusername/google-ads-chatbot.git
-cd google-ads-chatbot
+```bash
+    git clone https://github.com/yourusername/google-ads-chatbot.git
+    cd google-ads-chatbot 
+```
 
 2. Install Dependencies
 (Optional) Create a virtual environment:
