@@ -25,20 +25,23 @@ os – For system-level environment handling
 
 2. Install Dependencies
 (Optional) Create a virtual environment:
-
-python -m venv venv
+```bash
+    python -m venv venv
+```
 Activate it:
 
 On macOS/Linux:
-
-source venv/bin/activate
+```bash
+    source venv/bin/activate
+```
 On Windows:
-
-venv\Scripts\activate
+```bash
+    venv\Scripts\activate
+```
 Install the required packages:
-
-pip install -r requirements.txt
-
+```bash
+    pip install -r requirements.txt
+```
 3. Configure Google Ads API
 Follow the Google Ads API Getting Started Guide to:
 
@@ -53,16 +56,17 @@ Create an account at OpenAI and get your API key.
 
 5. Create a .env File
 In the root directory of the project, create a .env file:
-
-GOOGLE_ADS_CLIENT_ID=your_client_id
-GOOGLE_ADS_CLIENT_SECRET=your_client_secret
-GOOGLE_ADS_DEVELOPER_TOKEN=your_developer_token
-OPENAI_API_KEY=your_openai_api_key
-
+```bash
+    GOOGLE_ADS_CLIENT_ID=your_client_id
+    GOOGLE_ADS_CLIENT_SECRET=your_client_secret
+    GOOGLE_ADS_DEVELOPER_TOKEN=your_developer_token
+    OPENAI_API_KEY=your_openai_api_key
+```
 6. Run the App
-streamlit run app.py
-
-7. Access the Chatbot
+```bash
+    streamlit run app.py
+```
+8. Access the Chatbot
 Open the URL displayed in the terminal (usually http://localhost:8501) to interact with the chatbot. It will guide you through setting up your Google Ads campaign.
 
 Features
