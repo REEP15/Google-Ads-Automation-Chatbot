@@ -1,6 +1,0 @@
-streamlit
-langchain
-google-ads
-openai
-os
-dotenv
